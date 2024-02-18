@@ -1,31 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:action="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Account Opening Form</title>
 </head>
-<form action:="/send" method="post">
-<label for ="fname">First Name </label><br>
- <input type="text"id="fname" name="fname"><br>
-    <label for ="lname">Last Name </label><br>
-    <input type="text"id="lname" name="lname"><br>
-    <label for ="caddress">Current Address </label><br>
-    <input type="text"id="caddress" name="caddress"><br>
-    <label for ="paddress">Permanent Address </label><br>
-    <input type="text"id="paddress" name="paddress"><br>
-    <label for ="dob">Date Of Birth </label><br>
-    <input type="Date"id="dob" name="dob"><br>
-    <label for ="accnum">Account Number </label><br>
-    <input type="text"id="accnum" name="accnum"><br>
-    <button type ="submit" class ="btn btn-primary">Submit</button>
-
-
-</form>
 <body>
+<form action="/send" method="post" enctype="multipart/form-data">>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
 
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+
+    <label for="caddress">Current Address:</label><br>
+    <input type="text" id="caddress" name="caddress"><br>
+
+    <label for="paddress">Permanent Address:</label><br>
+    <input type="text" id="paddress" name="paddress"><br>
+
+    <label for="dob">Date Of Birth:</label><br>
+    <input type="date" id="dob" name="dob"><br>
+
+    <label for="accnum">Account Number:</label><br>
+    <input type="text" id="accnum" name="accnum"><br>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 </body>
 </html>
-
-
-
-
