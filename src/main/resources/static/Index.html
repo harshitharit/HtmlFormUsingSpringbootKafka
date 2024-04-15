@@ -4,24 +4,26 @@
     <title>Account Opening Form</title>
 </head>
 <body>
-<form action="/send" method="post" enctype="multipart/form-data">>
-    <label for="fname">First Name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
+<form action="/api/send" method="post" enctype="multipart/form-data">
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName"><br>
 
-    <label for="lname">Last Name:</label><br>
-    <input type="text" id="lname" name="lname"><br>
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName"><br>
 
-    <label for="caddress">Current Address:</label><br>
-    <input type="text" id="caddress" name="caddress"><br>
+    <label for="currentAddress">Current Address:</label><br>
+    <input type="text" id="currentAddress" name="currentAddress"><br>
 
-    <label for="paddress">Permanent Address:</label><br>
-    <input type="text" id="paddress" name="paddress"><br>
+    <label for="permanentAddress">Permanent Address:</label><br>
+    <input type="text" id="permanentAddress" name="permanentAddress"><br>
 
-    <label for="dob">Date Of Birth:</label><br>
-    <input type="date" id="dob" name="dob"><br>
+    <label for="dateOfBirth">Date Of Birth:</label><br>
+    <input type="Date" id="dateOfBirth" name="dateOfBirth"><br>
 
-    <label for="accnum">Account Number:</label><br>
-    <input type="text" id="accnum" name="accnum"><br>
+    <label for="accountNumber">Account Number:</label><br>
+    <input type="text" id="accountNumber" name="accountNumber"><br>
+    <label for="mobileNumber">Phone Number:</label><br>
+    <input type="text" id="mobileNumber" name="mobileNumber"><br>
 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
